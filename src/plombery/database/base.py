@@ -13,7 +13,7 @@ def json_serializer(*args, **kwargs) -> str:
 
 engine = create_engine(
     settings.database_url,
-    json_serializer=json_serializer,
+    json_serializer=json_serializer
 )
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 

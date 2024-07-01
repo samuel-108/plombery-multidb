@@ -1,5 +1,5 @@
 [project]
-name = "plombery-multidb	"
+name = "plombery-multidb"
 authors = [
     {name = "Samuel Samson", email = "sam@108capital.ltd"},
     {name = "Luca Faggianelli", email = "luca@velvetlab.tech"},

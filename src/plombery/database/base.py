@@ -14,7 +14,6 @@ def json_serializer(*args, **kwargs) -> str:
 engine = create_engine(
     settings.database_url,
     json_serializer=json_serializer,
-    connect_args={"check_same_thread": False},
 )
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 

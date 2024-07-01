@@ -1,6 +1,7 @@
 [project]
-name = "plombery"
+name = "plombery-multidb	"
 authors = [
+    {name = "Samuel Samson", email = "sam@108capital.ltd"},
     {name = "Luca Faggianelli", email = "luca@velvetlab.tech"},
 ]
 description = "Python task scheduler with a user-friendly web UI"
